@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    width: 100%;
+    background: #00316b
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover{
+    background: #e91e63;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;    
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:768px){
+    .toggle{
+        display: block;
+    }
+    ul{
+        widows: 100%;
+        display: none;
+    }
+    
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+    
+}
+
+
+
+#map {
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 57%;
+    position: absolute;
+}
+
+.knapss{
+    text-align: center;
+    bottom: 15%;
+    position: absolute;
+    left: 32%;
+}
+
+.button1{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 160px;
+    padding: 20px;
+    overflow: hidden;
+    border: 3px solid;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font: normal normal bold 18px/1 Georgia, serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    background: rgba(32,170,87,1);
+    -webkit-box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+  }
+
+.button2{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 160px;
+    padding: 20px;
+    overflow: hidden;
+    border: 3px solid;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font: normal normal bold 18px/1 Georgia, serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    background: rgb(211, 17, 17);
+    -webkit-box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+}
+
+
+
+/* .container {
+    width: 740px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+} */
